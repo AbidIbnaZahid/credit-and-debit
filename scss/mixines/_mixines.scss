@@ -1,0 +1,13 @@
+@mixin section($wight,$height,$background) {
+    width: $wight;
+    height: $height;
+    background: $background;
+}
+
+@mixin fontsize($fontsize,$fontfamilt,$color,$fontweight) {
+    font-size: $fontsize;
+    font-family: $fontfamilt;
+    color: $color;
+    font-weight: $fontweight;
+}
+

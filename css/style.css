@@ -1,0 +1,73 @@
+h1{
+color: #fff;
+font-weight: 400;
+margin-bottom: 11px;
+}
+.banner {
+  background-color: #7400ff;
+  padding: 40px 20px;
+ border-radius: 15px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.banner .add{
+  display: block;
+  margin-bottom: 44px;
+}
+.add{
+  margin-bottom: 80px;
+}
+.add-btn{
+margin-bottom: 50px;
+}
+
+.remove{
+  margin-bottom: 11px;
+}
+.form-control{
+  border: 1px solid #fff;
+  background: #f0f8ff00;
+  color: #fff;
+}
+.form-control:focus {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+  border-color: #ffffff !important;
+
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 0%);
+}
+button{
+  width: 100%;
+    background: #fff !important;
+    color: #7400ff !important;
+    margin-top: 10px;
+   
+}
+.total{
+text-align: center;
+margin-top: 150px;
+}
+
+
+.total h2{
+color: #fff;
+}
+.view {
+    border: 1px solid #fff;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+}
+.view h1{ 
+  color: #000;
+}
+.view h2{
+  color: #000;
+}
+.view-remove{
+  margin-top: 100px;
+  border: 1px solid #fff;
+  padding: 20px;
+  background: #fff;
+}

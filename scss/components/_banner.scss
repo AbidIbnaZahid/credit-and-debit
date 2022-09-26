@@ -1,0 +1,40 @@
+.banner{
+@include section(100%,auto,$primarycolor);
+margin-top: $sectiongap;
+    .banner__text{
+        border: 1px solid #f1f1f1;
+        -webkit-box-shadow: 2px 5px 16px 0px #0B325E, 14px -6px 21px -2px rgba(255,255,255,0); 
+        box-shadow: 2px 5px 16px 0px #d1d1d1, 14px -6px 21px -2px rgba(255,255,255,0);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        margin: 0 18px;
+        margin-bottom: 42px;
+        i{
+            margin-top: 30px;
+            border: 1px solid #FFEEFD;
+            padding: 10px 10px;
+            background-color: #FFEEFD;
+        }
+        h3{
+            @include fontsize($header1font,$opensans,$header1color,700);
+            width: 101px;
+            line-height: 33px;
+            margin-top: 40px;
+            
+        }
+        p{
+             @include fontsize($parafont,$opensans,$paracolor,400);
+             width: 264px;
+             margin-top: 10px;
+        }
+        .arrow{
+            text-align: right;
+            margin-right: 20px;
+            i{
+                border: 1px solid #ffeefd00;
+                background-color: #ffeefd00;
+            }
+        }
+    }
+}
